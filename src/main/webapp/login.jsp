@@ -11,6 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="" ></form>
+    <form action="login" method="post" >
+        姓名：<input type="text" name="name"/>
+        密码:<input type="password" name="pwd"/>
+        <input type="submit" value="提交"/>
+    </form>
 </body>
 </html>
