@@ -3,7 +3,7 @@ package dao;
 import java.sql.*;
 
 public class BaseDao {
-    private String driver = "com.mysql.jdbc.Driver";
+    private String driver = "com.mysql.cj.jdbc.Driver";
     private String url = "jdbc:mysql://114.215.43.108:3306/t94?useUnicode=true&characterEncoding=utf-8";
     private String user = "root";
     private String pwd = "root";

@@ -10,7 +10,7 @@ public class AdminDaoImpl extends BaseDao implements AdminDao {
 
     @Override
     public int login(String name, String pwd) {
-        String sql = "SELECT COUNT(*) FROM admin WHERE name=? AND `pwd`=?";
+        String sql = "SELECT COUNT(*) FROM Admin WHERE name=? AND `pwd`=?";
         Object[] param = { name, pwd };
 
         ResultSet rs = super.executeQuery(sql, param);
